@@ -1,0 +1,275 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 700;
+    font-family: Montserrat;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 14rem;
+}
+
+/* navbar*/
+
+nav {
+    width: 100%;
+    font-family: Montserrat;
+    font-size: 1.6rem;
+    background-color: rgb(31, 70, 88);
+    color: #fff;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    position: fixed;
+    z-index: 1;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+#logo-box {
+    float: left;
+}
+
+#logo-box .logo {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+#nav-links {
+    float: right;
+}
+
+#nav-links .link-item {
+    float: left;
+    margin: 1.6rem;
+}
+
+.nav-link {
+    color: white;
+    font-weight: 700;
+    font-size: 1.8rem;
+    transition: all 0.4s;
+    padding: 1.6rem;
+    letter-spacing: 0.06rem;
+}
+
+.nav-link:hover {
+    color: aquamarine;
+}
+
+header .container {
+    background-color: rgb(30, 201, 144);
+    height: 660px;
+    padding-top: calc(116px + 6rem);
+    text-align: center;
+}
+
+.image-fluid {
+    max-width: 256px;
+    height: auto;
+}
+
+header h1 {
+    font-size: 5rem;
+    margin: 1.5rem 0;
+    color: #fff;
+    letter-spacing: 0.07rem;
+}
+
+.star-light {
+    border: none;
+    border-top: 0.5rem solid #fff;
+    border-radius: 3px;
+    padding: 5rem;
+    width: 300px;
+    margin: 2.5rem auto;
+    overflow: visible;
+    height: 0%;
+}
+
+.star-light::after {
+    content: "\2605";
+    color: #fff;
+    font-weight: 900;
+    font-size: 4rem;
+    position: relative;
+    top: -85px;
+    background-color: rgb(30, 201, 144);
+    padding: 0 0.7rem;
+}
+
+header h2 {
+    margin: -10rem;
+    color: #fff;
+    font-weight: 400;
+    font-family: Lato;
+    letter-spacing: 0.3px;
+    font-size: 2.8rem;
+}
+
+/* Portfolio*/
+
+.star-dark {
+    width: 300px;
+    margin: 2.5rem auto;
+    border: none;
+    border-top: 5px solid rgb(31, 70, 88);
+    border-radius: 5px;
+    padding: 1rem;
+    overflow: visible;
+    height: 0;
+    z-index: -1;
+}
+
+.star-dark::after {
+    content: "\2605";
+    text-align: center;
+    font-weight: 700;
+    font-size: 4rem;
+    color: rgb(31, 70, 88);
+    top: -43px;
+    position: relative;
+    background-color: rgb(241, 241, 241);
+    padding: 0 0.7rem;
+
+}
+
+.portfolio {
+    color: rgb(31, 70, 88);
+    background-color: rgb(241, 241, 241);
+    height: 1000px;
+    text-align: center;
+
+}
+
+.portfolio h2 {
+    font-size: 6rem;
+    padding-top: 4rem;
+}
+
+.image-fluid-p {
+    max-width: 75%;
+    height: auto;
+    border-radius: 30px;
+
+}
+
+.portfolio-item:hover {
+    background-color: rgba(220, 20, 60, 0);
+    transition: all 0.4s;
+    padding: 2rem;
+}
+
+.col {
+    width: 33.333%;
+    float: left;
+    padding: 15px;
+}
+
+.portfolio-item {
+    height: 300px;
+}
+
+#clock {
+    font-size: 2.3rem;
+    font-weight: 700;
+    font-family: "Lato";
+    color: crimson;
+
+}
+
+#zuccaciye {
+    font-size: 2.3rem;
+    font-weight: 700;
+    font-family: "Lato";
+    color: rgb(108, 107, 107);
+}
+
+#house {
+    font-size: 2.3rem;
+    font-weight: 700;
+    font-family: "Lato";
+    color: rgb(245, 177, 126);
+}
+
+#pencil {
+    font-size: 2.3rem;
+    font-weight: 700;
+    font-family: "Lato";
+    color: rgb(247, 155, 7);
+}
+
+#shark {
+    font-size: 2.3rem;
+    font-weight: 700;
+    font-family: "Lato";
+    color: rgb(3, 196, 255);
+}
+
+#car {
+    font-size: 2.3rem;
+    font-weight: 700;
+    font-family: "Lato";
+    color: rgb(0, 0, 0);
+}
+
+
+footer a {
+    text-align: center;
+    font-size: 3.3rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-bottom: 3rem;
+}
+
+footer {
+    background-color: rgb(30, 201, 144);
+    width: 100%;
+    height: 100px;
+}
+
+footer p {
+    padding-top: 3rem;
+}
+
+.fa-solid {
+    padding-right: 1rem;
+}
